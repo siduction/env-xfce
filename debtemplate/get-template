@@ -5,6 +5,7 @@
 source VERSION
 
 [ -d ./debtemplate ] && rm -rf debtemplate
+[ -d ./theme ] && rm -rf ./theme
 
 git checkout templates -- bootstrap
 git checkout templates -- debtemplate
@@ -14,9 +15,8 @@ git checkout templates -- theme
 [ -f ./debian/rules ] && ./bootstrap && echo 'Bootstrap first run ...'
 [ ! -f ./debian/rules ] && ./bootstrap && echo 'Bootstrap second run ...'
 
-#[ -f ./debian/rules ] && rm -rf debtemplate
-#[ -f ./debian/rules ] && rm -f bootstrap
-#[ -f ./xsplash-template ] && rm -rf template
+[ -f ./debian/rules ] && rm -rf debtemplate
+[ -f ./debian/rules ] && rm -f bootstrap
 
 [ ! -f ./debian/rules ] && echo 'Something went wrong, debian/rules not created! Check bootstrap!'
 
