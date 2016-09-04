@@ -50,7 +50,7 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    debtemplate/xfce-control \
+    debtemplate/control \
     > ./debian/control
 
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
