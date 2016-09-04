@@ -15,7 +15,7 @@ git checkout templates -- template
 
 #[ -f ./debian/rules ] && rm -rf debtemplate
 #[ -f ./debian/rules ] && rm -f bootstrap
-#[ -f ./xsplash-template ] && rm -rf xsplash-template
+#[ -f ./xsplash-template ] && rm -rf template
 
 [ ! -f ./debian/rules ] && echo 'Something went wrong, debian/rules not created! Check bootstrap!'
 
