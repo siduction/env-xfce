@@ -79,7 +79,7 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./xsplash-template/src/logo.svg \
+    ./theme/src/logo.svg \
     > ./theme/logo.svg
 
 
