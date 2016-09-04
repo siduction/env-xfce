@@ -84,7 +84,7 @@ sed -i -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./theme/src/logo.svg
+    ./theme/logo.svg
 
 
 sed -i -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
