@@ -41,7 +41,7 @@ if [ ! -e ./debian/changelog ]; then
         -e "s/\@VERSION\@/${VERSION}/g" \
         -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
         -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-        templates/debian/changelog \
+        debtemplate/changelog \
         > ./debian/changelog
 fi
 
@@ -50,7 +50,7 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    templates/debian/xfce-control \
+    debtemplate/xfce-control \
     > ./debian/control
 
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
@@ -58,49 +58,44 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    templates/debian/rules \
+    debtemplate/rules \
     > ./debian/rules
 chmod 755 ./debian/rules
 
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-    -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
-    -e "s/\@VERSION\@/${VERSION}/g" \
-    -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    templates/debian/source/options \
-    > ./debian/source/options
 
+rm -f debian/source/options
 
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-    templates/debian/xsplash.install \
+    debtemplate/xsplash.install \
     > ./debian/${NAME}-xsplash.install
 
 
-rm -rf src
-mkdir src
-cp -a ../src/background.jpg src
+rm -rf xsplash
+mkdir xsplash
+
 
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    templates/xsplash/src/logo.svg \
-    > ./src/logo.svg
+    ./xsplash-template/src/logo.svg \
+    > ./theme/logo.svg
+
 
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    templates/xsplash/src/themerc \
-    > ./src/themerc
+    ./xsplash-template/src/themerc \
+    > ./xsplash/themerc
 
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    templates/xsplash/Makefile \
+    ./xsplash-template/Makefile \
     > ./Makefile
 
