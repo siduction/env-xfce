@@ -8,7 +8,8 @@ source VERSION
 
 git checkout templates -- bootstrap
 git checkout templates -- debtemplate
-git checkout templates -- template
+git checkout templates -- Makefile
+git checkout templates -- theme
 
 [ -f ./debian/rules ] && ./bootstrap && echo 'Bootstrap first run ...'
 [ ! -f ./debian/rules ] && ./bootstrap && echo 'Bootstrap second run ...'

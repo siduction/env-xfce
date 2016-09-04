@@ -77,33 +77,26 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     debtemplate/xsplash.install \
     > ./debian/${NAME}-xsplash.install
 
+# ----
 
-rm -rf xsplash
-mkdir xsplash
-
-
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+sed -i -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./theme/src/logo.svg \
-    > ./theme/logo.svg
+    ./theme/src/logo.svg
 
 
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+sed -i -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./xsplash-template/src/themerc \
-    > ./xsplash/themerc
+    ./theme/themerc
 
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+sed -i -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./xsplash-template/Makefile \
-    > ./Makefile
-
+    ./Makefile
