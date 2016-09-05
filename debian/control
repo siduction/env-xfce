@@ -6,8 +6,8 @@ Build-Depends: debhelper (>= 9),
  inkscape,
  imagemagick
 Standards-Version: 3.9.8
-Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
-Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
+Vcs-Git: https://git.siduction.org/artwork/env-xfce.git
+Vcs-Browser: https://git.siduction.org/artwork/env-xfce.git
 
 
 Package: paintitblack-xfce-artwork

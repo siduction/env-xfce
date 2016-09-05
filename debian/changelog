@@ -1,3 +1,11 @@
+paintitblack-xfce-artwork (2016.09.04-1) unstable; urgency=medium
+
+  * new bootstrap, fixed copyright, fixed VCS-fields
+  * deleted source options
+  * use source format 1.0
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 05 Sep 2016 23:44:49 +0200
+
 paintitblack-xfce-artwork (2016.08.02) unstable; urgency=medium
 
   * Fixed version
