@@ -2,10 +2,10 @@ Source: patience-xfce-artwork
 Section: graphics
 Priority: extra
 Maintainer: Alf Gaida <agaida@siduction.org>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 10),
  inkscape,
  imagemagick
-Standards-Version: 3.9.8
+Standards-Version: 4.1.2
 Vcs-Git: https://git.siduction.org/artwork/env-xfce.git
 Vcs-Browser: https://git.siduction.org/artwork/env-xfce.git
 
