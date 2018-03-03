@@ -77,27 +77,30 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
 
 # ----
 
-sed -i -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@CODENAME\@/${CODENAME}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./theme/logo.svg
+    ../template/theme/logo.svg \
+    > ./theme/logo.svg
 
 
-sed -i -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@CODENAME\@/${CODENAME}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./theme/themerc
+    ../template/theme/themerc \
+    > ./theme/themerc
 
-sed -i -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@CODENAME\@/${CODENAME}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./Makefile
+    ../template/Makefile \
+    > ./Makefile
 
 echo "-----------------------------------------------------------"
 echo "Recreated debian/$foo successful - just go ahead!"
