@@ -1,19 +1,19 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: @CODENAME_SAFE@-@FLAVOUR@-artwork
+Upstream-Name: @CODENAME_SAFE@-xfce-artwork
 Upstream-Contact: Alf Gaida <agaida@siduction.org>
 
 Files: *
-Copyright: 2013-2016 Alf Gaida <agaida@siduction.org>
+Copyright: 2013-2018 Alf Gaida <agaida@siduction.org>
            2013-2016 Hendrik Lehmbruch <hlehmbruch@gmx.net>
 License: GPL-2.0+
 
 Files: splash-xfce/themerc
-Copyright: 2013-2016 Alf Gaida <agaida@siduction.org>
+Copyright: 2013-2018 Alf Gaida <agaida@siduction.org>
            2013-2016 Hendrik Lehmbruch <hlehmbruch@gmx.net>
 License: LGPL-2.0+
 
 Files: debian/*
-Copyright: 2015 Alf Gaida <agaida@siduction.org>
+Copyright: 2015-2018 Alf Gaida <agaida@siduction.org>
 License: GPL-2.0
 
 License: GPL-2.0
