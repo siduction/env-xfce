@@ -1,9 +1,9 @@
 #
-# Default siduction patience theme
+# Default siduction c-blues theme
 # for xfce4 based on the balou engine
 #
-# Copyright: 2011-2018 Alf Gaida <agaida@siduction.org>
-#            2011-2013 Hendrik Lehmbruch <hlehmbruch@gmx.net>
+# Copyright: 2011-2021 Alf Gaida <agaida@siduction.org>
+#            2011-2021 Hendrik Lehmbruch <hlehmbruch@gmx.net>
 #            2010-2011 Rick Battle <rick.battle@solmera.com>
 #            2010 David Creedy <djcreedy@iinet.net.au>
 #            2010 Bernard Gray <bernard.gray@gmail.com>
@@ -32,8 +32,8 @@
 # Info section
 #
 [Info]
-Name=patience
-Description=default xfce theme for patience
+Name=c-blues
+Description=default xfce theme for c-blues
 
 #
 # splash screen settings

@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -14,8 +12,8 @@
    height="1024"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48+devel r"
-   sodipodi:docname="xfce-splash-logo.svg">
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="logo.svg">
   <defs
      id="defs4">
     <clipPath
@@ -290,16 +288,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.310662"
-     inkscape:cx="439.66338"
-     inkscape:cy="103.69608"
+     inkscape:cx="230.22723"
+     inkscape:cy="807.28455"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1532"
-     inkscape:window-height="1090"
+     inkscape:window-width="1440"
+     inkscape:window-height="850"
      inkscape:window-x="0"
-     inkscape:window-y="48"
-     inkscape:window-maximized="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
      width="0px"
      height="0px"
      fit-margin-top="0"
@@ -316,7 +314,8 @@
      inkscape:bbox-paths="true"
      inkscape:snap-page="true"
      inkscape:showpageshadow="true"
-     showborder="true">
+     showborder="true"
+     inkscape:document-rotation="0">
     <sodipodi:guide
        orientation="1,0"
        position="-4.9999988,1200"
@@ -380,32 +379,31 @@
      id="layer1"
      transform="translate(587.95276,-302.18108)">
     <image
-       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/xperimental/src/background.jpg"
-       xlink:href="background.jpg"
-       y="297.18109"
-       x="-592.95276"
-       id="image7278"
+       sodipodi:absref="/kammer/bastelecke/github/git-siduction/env-xfce/background.jpg"
+       xlink:href="../background.jpg"
+       preserveAspectRatio="none"
+       width="1654.3998"
        height="1033.9999"
-       width="1648.0297"
-       preserveAspectRatio="none" />
+       id="image7278"
+       x="-592.95276"
+       y="297.18109" />
     <text
        xml:space="preserve"
-       style="font-size:23.93080521px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:none"
        x="727.24957"
        y="-82.223709"
        id="text2399-6"
-       sodipodi:linespacing="125%"
        transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"><tspan
          sodipodi:role="line"
          id="tspan2401-6"
          x="727.24957"
          y="-82.223709"
-         style="font-size:25.55515289px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans Bold;fill:#ff6600;fill-opacity:1">DRAFT</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.5552px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'Sans Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1">DRAFT</tspan><tspan
          sodipodi:role="line"
-         x="727.24957"
-         y="-50.27977"
-         style="font-size:23.15935516px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans;fill:#ff6600;fill-opacity:1"
-         id="tspan9905" /></text>
+         x="731.31122"
+         y="-50.279709"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.5552px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1"
+         id="tspan9905"> </tspan></text>
     <g
        transform="translate(-463.31192,60.251364)"
        id="layer1-4"
@@ -599,10 +597,11 @@
        inkscape:export-xdpi="89"
        inkscape:export-filename="/home/coruja/siduction/artwork/coruja.web.header.png"
        transform="matrix(0.73525771,0,0,0.71606258,399.50117,1337.1291)"
-       style="font-size:18px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       style="font-style:normal;font-weight:bold;line-height:0.01%;font-family:sans-serif;-inkscape-font-specification:'Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#6f7c91;fill-opacity:1;stroke:none"
        id="flowRoot4824-8"
        xml:space="preserve"><flowRegion
-         id="flowRegion4826-1"><rect
+         id="flowRegion4826-1"
+         style="font-family:sans-serif"><rect
            style="font-style:normal;font-weight:bold;fill:#6f7c91;-inkscape-font-specification:Sans Bold"
            y="-107"
            x="33"
@@ -610,7 +609,8 @@
            width="255"
            id="rect4828-9" /></flowRegion><flowPara
          id="flowPara4830-9"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold">the community based OS</flowPara></flowRoot>    <path
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold'">the community based OS</flowPara></flowRoot>
+    <path
        inkscape:export-ydpi="89"
        inkscape:export-xdpi="89"
        inkscape:export-filename="/home/coruja/siduction/artwork/coruja.web.header.png"
@@ -621,16 +621,15 @@
        style="fill:none;stroke:#ff6600;stroke-width:2.90274239;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'Sans Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none"
        x="-548.57257"
        y="1250.9213"
-       id="text24023-0"
-       sodipodi:linespacing="125%"><tspan
+       id="text24023-0"><tspan
          y="1250.9213"
          x="-548.57257"
          sodipodi:role="line"
          id="tspan6821-5"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none">patience</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'Sans Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none">c-blues</tspan></text>
     <rect
        style="fill:#ff6600;fill-opacity:1"
        id="rect12621-3"
