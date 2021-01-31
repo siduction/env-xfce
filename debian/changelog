@@ -1,3 +1,9 @@
+cblues-xfce-artwork (2021.1.0-1) unstable; urgency=medium
+
+  * fix codename safe
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sat, 30 Jan 2021 22:34:35 +0100
+
 c-blues-xfce-artwork (2021.1.0) unstable; urgency=medium
 
   [ Hendrik Lehmbruch ]
