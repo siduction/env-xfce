@@ -1,4 +1,4 @@
-Source: cblues-xfce-artwork
+Source: farewell-xfce-artwork
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,22 +10,22 @@ Vcs-Browser: https://git.siduction.org/artwork/env-xfce
 Vcs-Git: https://git.siduction.org/artwork/env-xfce.git
 
 
-Package: cblues-xfce-artwork
+Package: farewell-xfce-artwork
 Architecture: all
 Depends: ${misc:Depends},
-         cblues-xsplash,
-         cblues-wallpapers,
+         farewell-xsplash,
+         farewell-wallpapers,
          siduction-icons
 Recommends: dmz-cursor-theme
-Description: Xfce theme for cblues
+Description: Xfce theme for farewell
  Release specific metapackage depending on xfce4-session and Xfce themes
  to be used in combination with the Xfce desktop environment.
 
-Package: cblues-xsplash
+Package: farewell-xsplash
 Architecture: all
 Depends: ${misc:Depends},
          xfce4-session
-Description: Xfce splash theme for the cblues
+Description: Xfce splash theme for the farewell
  Release specific Xfce splash theme, based on the balou theme engine.
  .
  This package does not override existing theme configurations and needs to be

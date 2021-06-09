@@ -1,5 +1,5 @@
 #
-# Default siduction c-blues theme
+# Default siduction farewell theme
 # for xfce4 based on the balou engine
 #
 # Copyright: 2011-2021 Alf Gaida <agaida@siduction.org>
@@ -32,8 +32,8 @@
 # Info section
 #
 [Info]
-Name=c-blues
-Description=default xfce theme for c-blues
+Name=farewell
+Description=default xfce theme for farewell
 
 #
 # splash screen settings
