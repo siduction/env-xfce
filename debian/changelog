@@ -1,3 +1,9 @@
+farewell-xfce-artwork (2021.2.0-1) unstable; urgency=medium
+
+  * set final version
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Thu, 22 Jul 2021 14:43:47 +0200
+
 farewell-xfce-artwork (2021.1.99-1) unstable; urgency=medium
 
   * prepare farewell packaging
