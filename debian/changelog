@@ -1,3 +1,9 @@
+wintersky-xfce-artwork (2021.2.99-1) unstable; urgency=medium
+
+  * prepare wintersky release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Fri, 03 Dec 2021 19:47:53 +0100
+
 cblues-xfce-artwork (2021.1.0-1) unstable; urgency=medium
 
   * fix codename safe
