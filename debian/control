@@ -1,4 +1,4 @@
-Source: wintersky-xfce-artwork
+Source: mow-xfce-artwork
 Section: graphics
 Priority: optional
 Maintainer: Torsten Wohlfarth <towo@siduction.org>,
@@ -10,22 +10,22 @@ Vcs-Browser: https://git.siduction.org/artwork/env-xfce
 Vcs-Git: https://git.siduction.org/artwork/env-xfce.git
 
 
-Package: wintersky-xfce-artwork
+Package: mow-xfce-artwork
 Architecture: all
 Depends: ${misc:Depends},
-         wintersky-xsplash,
-         wintersky-wallpapers,
+         mow-xsplash,
+         mow-wallpapers,
          siduction-icons
 Recommends: dmz-cursor-theme
-Description: Xfce theme for wintersky
+Description: Xfce theme for mow
  Release specific metapackage depending on xfce4-session and Xfce themes
  to be used in combination with the Xfce desktop environment.
 
-Package: wintersky-xsplash
+Package: mow-xsplash
 Architecture: all
 Depends: ${misc:Depends},
          xfce4-session
-Description: Xfce splash theme for the wintersky
+Description: Xfce splash theme for the mow
  Release specific Xfce splash theme, based on the balou theme engine.
  .
  This package does not override existing theme configurations and needs to be
