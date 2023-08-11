@@ -1,5 +1,5 @@
 #
-# Default siduction wintersky theme
+# Default siduction giants theme
 # for xfce4 based on the balou engine
 #
 # Copyright: 2011-2021 Alf Gaida <agaida@siduction.org>
@@ -32,8 +32,8 @@
 # Info section
 #
 [Info]
-Name=wintersky
-Description=default xfce theme for wintersky
+Name=giants
+Description=default xfce theme for giants
 
 #
 # splash screen settings

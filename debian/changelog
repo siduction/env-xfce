@@ -1,3 +1,15 @@
+giants-xfce-artwork (2023.1-1) unstable; urgency=medium
+
+  * prepare release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Fri, 11 Aug 2023 13:00:18 +0200
+
+mow-xfce-artwork (2022.1.0-1) unstable; urgency=medium
+
+  * prepare Masters of War release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sat, 10 Dec 2022 17:23:46 +0100
+
 wintersky-xfce-artwork (2021.3.0-1) unstable; urgency=medium
 
   * wintersky release

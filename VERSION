@@ -1,5 +1,5 @@
-CODENAME=wintersky
-CODENAME_SAFE=wintersky
+CODENAME=Standing on the Shoulders of Giants
+CODENAME_SAFE=giants
 DISPLAY=XFCE
 FLAVOUR=xfce
-VERSION=2021.3.0
+VERSION=2023.1
