@@ -1,4 +1,4 @@
-Source: shine-on-xfce-artwork
+Source: big-crime-xfce-artwork
 Section: graphics
 Priority: optional
 Maintainer: Torsten Wohlfarth <towo@siduction.org>,
@@ -10,22 +10,22 @@ Vcs-Browser: https://git.siduction.org/artwork/env-xfce
 Vcs-Git: https://git.siduction.org/artwork/env-xfce.git
 
 
-Package: shine-on-xfce-artwork
+Package: big-crime-xfce-artwork
 Architecture: all
 Depends: ${misc:Depends},
-         shine-on-xsplash,
-         shine-on-wallpapers,
+         big-crime-xsplash,
+         big-crime-wallpapers,
          siduction-icons
 Recommends: dmz-cursor-theme
-Description: Xfce theme for shine-on
+Description: Xfce theme for big-crime
  Release specific metapackage depending on xfce4-session and Xfce themes
  to be used in combination with the Xfce desktop environment.
 
-Package: shine-on-xsplash
+Package: big-crime-xsplash
 Architecture: all
 Depends: ${misc:Depends},
          xfce4-session
-Description: Xfce splash theme for the shine-on
+Description: Xfce splash theme for the big-crime
  Release specific Xfce splash theme, based on the balou theme engine.
  .
  This package does not override existing theme configurations and needs to be
